@@ -1380,6 +1380,7 @@ li .change-theme {
     text-align: center;
     border-radius: 9px;
     font-size: 1.05rem;
+    cursor: pointer;
 }
 
 
