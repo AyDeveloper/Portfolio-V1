@@ -76,16 +76,11 @@ toggleBtn.addEventListener("click", function() {
 });
 
 
-// /*REMOVE MENU MOBILE*/
-// const navLink = document.querySelectorAll(".nav-link");
-
-// navLink.forEach(function(linksList){
-//     linksList.addEventListener('click', function() {
-//         const linksContainer = document.querySelector('.links-container');
-//         linksContainer.classList.add('remove');
-//     })
-// });
-
+// /*Add  dynamic date*/
+const dateElement = document.querySelector('.date');
+const date = new Date();
+const year = date.getFullYear();
+dateElement.innerText = year; 
  /* SHOW SCROLL TOP*/
 window.addEventListener('scroll', function(){
     const header = document.getElementById('header');
