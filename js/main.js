@@ -76,15 +76,15 @@ toggleBtn.addEventListener("click", function() {
 });
 
 
-/*REMOVE MENU MOBILE*/
-const navLink = document.querySelectorAll(".nav-link");
+// /*REMOVE MENU MOBILE*/
+// const navLink = document.querySelectorAll(".nav-link");
 
-navLink.forEach(function(linksList){
-    linksList.addEventListener('click', function() {
-        const linksContainer = document.querySelector('.links-container');
-        linksContainer.style.height="0px";
-    })
-});
+// navLink.forEach(function(linksList){
+//     linksList.addEventListener('click', function() {
+//         const linksContainer = document.querySelector('.links-container');
+//         linksContainer.classList.add('remove');
+//     })
+// });
 
  /* SHOW SCROLL TOP*/
 window.addEventListener('scroll', function(){
